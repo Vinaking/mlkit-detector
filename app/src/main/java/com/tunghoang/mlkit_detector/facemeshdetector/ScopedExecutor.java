@@ -1,4 +1,4 @@
-package com.tunghoang.facemesh.detector;
+package com.tunghoang.mlkit_detector.facemeshdetector;
 
 import androidx.annotation.NonNull;
 

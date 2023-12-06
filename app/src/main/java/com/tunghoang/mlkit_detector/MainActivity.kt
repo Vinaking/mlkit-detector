@@ -1,19 +1,19 @@
-package com.tunghoang.facemesh
+package com.tunghoang.mlkit_detector
 
 import android.Manifest
 import android.content.Context
 import android.content.pm.PackageManager
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
-import com.tunghoang.facemesh.camera.CameraSource
-import com.tunghoang.facemesh.camera.CameraSourcePreview
-import com.tunghoang.facemesh.graphic.GraphicOverlay
-import com.tunghoang.facemesh.detector.FaceMeshDetectorProcessor
+import com.google.mlkit.vision.objects.defaults.ObjectDetectorOptions
+import com.tunghoang.mlkit_detector.camera.CameraSource
+import com.tunghoang.mlkit_detector.camera.CameraSourcePreview
+import com.tunghoang.mlkit_detector.graphic.GraphicOverlay
+import com.tunghoang.mlkit_detector.objectdetector.ObjectDetectorProcessor
 import java.io.IOException
-import java.util.ArrayList
 
 class MainActivity : AppCompatActivity() {
     private var cameraSource: CameraSource? = null
@@ -59,7 +59,13 @@ class MainActivity : AppCompatActivity() {
 
         }
         try {
-            cameraSource!!.setMachineLearningFrameProcessor(FaceMeshDetectorProcessor(this))
+//            cameraSource!!.setMachineLearningFrameProcessor(FaceMeshDetectorProcessor(this))
+
+            val options = ObjectDetectorOptions.Builder()
+                .setDetectorMode(ObjectDetectorOptions.STREAM_MODE)
+                .enableClassification()
+                .build()
+            cameraSource!!.setMachineLearningFrameProcessor(ObjectDetectorProcessor(this, options))
         }catch (ex: Exception) {
             print(ex)
         }

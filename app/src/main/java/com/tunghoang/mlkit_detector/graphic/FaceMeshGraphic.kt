@@ -1,4 +1,4 @@
-package com.tunghoang.facemesh.graphic
+package com.tunghoang.mlkit_detector.graphic
 
 import android.graphics.Canvas
 import android.graphics.Color

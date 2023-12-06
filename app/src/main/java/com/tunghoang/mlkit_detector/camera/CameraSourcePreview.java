@@ -1,4 +1,4 @@
-package com.tunghoang.facemesh.camera;
+package com.tunghoang.mlkit_detector.camera;
 
 import android.content.Context;
 import android.content.res.Configuration;
@@ -9,7 +9,7 @@ import android.view.SurfaceView;
 import android.view.ViewGroup;
 
 import com.google.android.gms.common.images.Size;
-import com.tunghoang.facemesh.graphic.GraphicOverlay;
+import com.tunghoang.mlkit_detector.graphic.GraphicOverlay;
 
 import java.io.IOException;
 

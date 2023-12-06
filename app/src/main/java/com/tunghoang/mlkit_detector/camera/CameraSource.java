@@ -1,4 +1,4 @@
-package com.tunghoang.facemesh.camera;
+package com.tunghoang.mlkit_detector.camera;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -16,8 +16,8 @@ import android.view.WindowManager;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresPermission;
 import com.google.android.gms.common.images.Size;
-import com.tunghoang.facemesh.graphic.GraphicOverlay;
-import com.tunghoang.facemesh.VisionImageProcessor;
+import com.tunghoang.mlkit_detector.graphic.GraphicOverlay;
+import com.tunghoang.mlkit_detector.VisionImageProcessor;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;

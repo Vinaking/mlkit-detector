@@ -1,8 +1,8 @@
-package com.tunghoang.facemesh;
+package com.tunghoang.mlkit_detector;
 
 import com.google.mlkit.common.MlKitException;
-import com.tunghoang.facemesh.camera.FrameMetadata;
-import com.tunghoang.facemesh.graphic.GraphicOverlay;
+import com.tunghoang.mlkit_detector.camera.FrameMetadata;
+import com.tunghoang.mlkit_detector.graphic.GraphicOverlay;
 
 import java.nio.ByteBuffer;
 

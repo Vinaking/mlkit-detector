@@ -1,4 +1,4 @@
-package com.tunghoang.facemesh.utils;
+package com.tunghoang.mlkit_detector.utils;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -10,7 +10,7 @@ import android.util.Log;
 
 import androidx.annotation.Nullable;
 
-import com.tunghoang.facemesh.camera.FrameMetadata;
+import com.tunghoang.mlkit_detector.camera.FrameMetadata;
 
 import java.io.ByteArrayOutputStream;
 import java.nio.ByteBuffer;

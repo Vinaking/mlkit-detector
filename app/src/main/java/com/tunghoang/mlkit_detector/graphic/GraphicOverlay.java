@@ -1,4 +1,4 @@
-package com.tunghoang.facemesh.graphic;
+package com.tunghoang.mlkit_detector.graphic;
 
 import static java.lang.Math.max;
 import static java.lang.Math.min;

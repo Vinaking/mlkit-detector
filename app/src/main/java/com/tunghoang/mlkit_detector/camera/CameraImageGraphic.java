@@ -1,9 +1,9 @@
-package com.tunghoang.facemesh.camera;
+package com.tunghoang.mlkit_detector.camera;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 
-import com.tunghoang.facemesh.graphic.GraphicOverlay;
+import com.tunghoang.mlkit_detector.graphic.GraphicOverlay;
 
 /** Draw camera image to background. */
 public class CameraImageGraphic extends GraphicOverlay.Graphic {

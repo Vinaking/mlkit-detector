@@ -1,4 +1,4 @@
-package com.tunghoang.facemesh
+package com.tunghoang.mlkit_detector
 
 import org.junit.Test
 

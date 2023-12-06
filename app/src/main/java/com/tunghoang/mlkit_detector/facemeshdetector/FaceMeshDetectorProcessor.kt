@@ -1,4 +1,4 @@
-package com.tunghoang.facemesh.detector
+package com.tunghoang.mlkit_detector.facemeshdetector
 
 import android.content.Context
 import android.util.Log
@@ -8,8 +8,8 @@ import com.google.mlkit.vision.facemesh.FaceMesh
 import com.google.mlkit.vision.facemesh.FaceMeshDetection
 import com.google.mlkit.vision.facemesh.FaceMeshDetector
 import com.google.mlkit.vision.facemesh.FaceMeshDetectorOptions
-import com.tunghoang.facemesh.graphic.GraphicOverlay
-import com.tunghoang.facemesh.graphic.FaceMeshGraphic
+import com.tunghoang.mlkit_detector.graphic.GraphicOverlay
+import com.tunghoang.mlkit_detector.graphic.FaceMeshGraphic
 
 /** Face Mesh Detector Demo. */
 class FaceMeshDetectorProcessor(context: Context) :

@@ -1,4 +1,4 @@
-package com.tunghoang.facemesh.detector
+package com.tunghoang.mlkit_detector.facemeshdetector
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -12,11 +12,11 @@ import com.google.android.odml.image.ByteBufferMlImageBuilder
 import com.google.android.odml.image.MlImage
 import com.google.mlkit.common.MlKitException
 import com.google.mlkit.vision.common.InputImage
-import com.tunghoang.facemesh.VisionImageProcessor
-import com.tunghoang.facemesh.camera.CameraImageGraphic
-import com.tunghoang.facemesh.camera.FrameMetadata
-import com.tunghoang.facemesh.graphic.GraphicOverlay
-import com.tunghoang.facemesh.utils.BitmapUtils
+import com.tunghoang.mlkit_detector.VisionImageProcessor
+import com.tunghoang.mlkit_detector.camera.CameraImageGraphic
+import com.tunghoang.mlkit_detector.camera.FrameMetadata
+import com.tunghoang.mlkit_detector.graphic.GraphicOverlay
+import com.tunghoang.mlkit_detector.utils.BitmapUtils
 import java.nio.ByteBuffer
 import java.util.*
 

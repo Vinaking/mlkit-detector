@@ -1,4 +1,4 @@
-package com.tunghoang.facemesh.camera;
+package com.tunghoang.mlkit_detector.camera;
 
 public class FrameMetadata {
 

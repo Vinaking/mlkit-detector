@@ -1,4 +1,4 @@
-package com.tunghoang.facemesh
+package com.tunghoang.mlkit_detector
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
